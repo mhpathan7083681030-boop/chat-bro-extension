@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Chat Bro",
+  "version": "1.0",
+  "description": "Yandex Browser Extension for Chat Bro",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://chat-bro-backend.onrender.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
